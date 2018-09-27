@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.LocalDate;
 
 @RestController
-@RequestMapping("/fecha")
+@RequestMapping( Endpoints.fecha )
 public class FechaActualController {
 
   @GetMapping
